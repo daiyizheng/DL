@@ -30,4 +30,7 @@
 
 
 ## AIGC
+- VAE
+- GAN
 
+## ChatGPT
