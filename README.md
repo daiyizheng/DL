@@ -1,16 +1,17 @@
 # 学习笔记
-## Pytorch
+## 01 Python
+
+## 02 数据分析
+
+
+## 03 深度学习框架 
+### Pytorch
 - BatchNorm 
 
-## 机器学习scikit-learn
-- LinerRegression
-- Logistics Regression
-- Tree
-- RandomForest
-- GBDT
-- XGBoost
+## 04 基础算法
 
-## Statistical Inference
+
+## 05 Statistical Inference
 - 重要性采样
 - 逆变换采样
 - 拒绝抽样
@@ -18,6 +19,15 @@
 - 朗格万-蒙特卡洛
 - Metropolis Hastings
 
+## 06 机器学习scikit-learn
+- LinerRegression
+- Logistics Regression
+- Tree
+- RandomForest
+- GBDT
+- XGBoost
+
+## 深度学习模型
 ## 注意力机制
 - 非参数注意力
 - 参数注意力
