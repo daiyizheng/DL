@@ -1,0 +1,8 @@
+langchain-community
+tavily-python
+langchain
+langchain-openai
+langchainhub
+faiss-cpu
+beautifulsoup4
+langserve[all]
