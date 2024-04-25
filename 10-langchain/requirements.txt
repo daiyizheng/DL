@@ -6,3 +6,11 @@ langchainhub
 faiss-cpu
 beautifulsoup4
 langserve[all]
+tiktoken
+langchain_experimental
+pandas
+jieba
+unstructured
+google-api-python-client
+langchain-cli
+langserve[all]
