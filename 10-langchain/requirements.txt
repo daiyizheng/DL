@@ -14,3 +14,4 @@ unstructured
 google-api-python-client
 langchain-cli
 langserve[all]
+langchain-chroma
