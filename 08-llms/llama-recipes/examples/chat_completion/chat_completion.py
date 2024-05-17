@@ -6,6 +6,7 @@
 import fire
 import os
 import sys
+sys.path.insert(0, "./src")
 
 import torch
 from transformers import LlamaTokenizer

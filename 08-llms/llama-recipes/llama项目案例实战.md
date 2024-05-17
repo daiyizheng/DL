@@ -8,12 +8,12 @@ git clone https://github.com/facebookresearch/llama-recipes.git
 
 ```shell
 https://huggingface.co/meta-llama
+huggingface-cli download --resume-download meta-llama/Llama-2-7b-chat-hf --local-dir meta-llama/Llama-2-7b-chat-hf
 
 # 本教程采用的模型是：
 # meta-llama/Llama-2-7b-chat-hf
 ```
 
-<img src="pngs/00.png" width=700 height=400/>
 
 # 3.  创建虚拟环境
 
@@ -46,30 +46,26 @@ pip install --extra-index-url https://download.pytorch.org/whl/test/cu118 -e .[t
 
 ```shell
 # 摘要生成
-python examples/inference.py --model_name /root/autodl-tmp/llama-7b-chat-hf --prompt_file examples/samsum_prompt.txt
+python examples/inference.py --model_name /slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf --prompt_file  examples/samsum_prompt.txt
 ```
 
 ## 5.2 chat completion
 
 ```shell
 # chat completion 
-python examples/chat_completion/chat_completion.py --model_name /root/autodl-tmp/llama-7b-chat-hf --prompt_file examples/chat_completion/chats.json
+python examples/chat_completion/chat_completion.py --model_name /slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf --prompt_file examples/chat_completion/chats.json
 ```
 
 ## 5.3 code completion
 
 ```shell
 # code completion 代码补全
-python examples/code_llama/code_completion_example.py --model_name /root/autodl-tmp/llama-7b-chat-hf --prompt_file examples/code_llama/code_completion_prompt.txt --temperature 0.2 --top_p 0.9
+python examples/code_llama/code_completion_example.py --model_name /slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf --prompt_file examples/code_llama/code_completion_prompt.txt --temperature 0.2 --top_p 0.9
 ```
-
-
 
 ## 5.4 code infilling
 
 ```shell
 # code infilling 代码填充
-python examples/code_llama/code_infilling_example.py --model_name /root/autodl-tmp/llama-7b-chat-hf --prompt_file examples/code_llama/code_infilling_prompt.txt --temperature 0.2 --top_p 0.9
+python examples/code_llama/code_infilling_example.py --model_name /slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf --prompt_file examples/code_llama/code_infilling_prompt.txt --temperature 0.2 --top_p 0.9
 ```
-
-

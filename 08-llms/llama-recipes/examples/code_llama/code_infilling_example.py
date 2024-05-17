@@ -7,6 +7,7 @@ import fire
 import torch
 import os
 import sys
+sys.path.insert(0, "./src")
 import time
 
 from transformers import AutoTokenizer
