@@ -69,8 +69,8 @@ from langchain.llms import VLLMOpenAI
 
 llm = VLLMOpenAI(
     openai_api_key = "EMPTY",
-    openai_api_base = "/slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf",
-    model_name = "/root/autodl-tmp/llama-7b-chat-hf",
+    openai_api_base = "http://xxx",
+    model_name = "/slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf",
     max_tokens = 300
 )
 
