@@ -10,7 +10,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.prompts.chat import SystemMessagePromptTemplate
 from PyPDF2 import PdfReader
-#API_KEY = "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"
+#API_KEY = "xxx"
 # embedding_model = OpenAIEmbeddings(openai_api_key=API_KEY)
 # llm = ChatOpenAI(openai_api_key=API_KEY)
 
