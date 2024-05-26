@@ -1,16 +1,16 @@
 import streamlit as st
 
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain.embeddings import HuggingFaceEmbeddings, OpenAIEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings, OpenAIEmbeddings
 from langchain_community.llms import VLLM
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.prompts.chat import SystemMessagePromptTemplate
 from PyPDF2 import PdfReader
-#API_KEY = "xxx"
+
 # embedding_model = OpenAIEmbeddings(openai_api_key=API_KEY)
 # llm = ChatOpenAI(openai_api_key=API_KEY)
 
@@ -96,7 +96,7 @@ with st.sidebar:
             chunks = splitter.split_text(text)
 
             # embedding model
-            embedding_model = HuggingFaceEmbeddings(model_name="/root/autodl-tmp/embedding_models/models",
+            embedding_model = HuggingFaceEmbeddings(model_name="/slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf",
                                                     model_kwargs={"device": "cpu"})
 
             # 向量数据库
@@ -104,7 +104,7 @@ with st.sidebar:
                                   embedding=embedding_model)
 
             # llm model
-            llm = VLLM(model="/root/autodl-tmp/llama-7b-chat-hf",
+            llm = VLLM(model="/slurm/home/yrd/shaolab/daiyizheng/resources/modelscope/shakechen/Llama-2-7b-chat-hf",
                        trust_remote_code=False,  # mandatory for hf models
                        max_new_tokens=300,
                        top_k=3,
