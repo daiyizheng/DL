@@ -1,5 +1,6 @@
 # 预训练大模型
-
+https://bratanic-tomaz.medium.com/
+https://github.com/tomasonjo/blogs
 ## 数据预处理
 
 ## 大模型
