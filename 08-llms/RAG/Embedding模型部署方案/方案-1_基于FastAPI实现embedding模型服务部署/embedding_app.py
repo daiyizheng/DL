@@ -28,7 +28,7 @@ app = FastAPI()
 # 检查CUDA是否可用
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-MODEL_PATH = "./bge-large-zh-v1.5"
+MODEL_PATH = "/slurm/resources/weights/huggingface/BAAI/bge-large-zh-v1.5"
 # 加载预训练模型
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModel.from_pretrained(MODEL_PATH).to(device)
