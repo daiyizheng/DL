@@ -1,0 +1,2 @@
+# R语言机器学习理论与实战
+https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzOTQzNzU0NA==&action=getalbum&album_id=2267367379124928515&scene=126&sessionid=523916997&uin=&key=&devicetype=Windows+11+x64&version=63090819&lang=zh_CN&ascene=0
