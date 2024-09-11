@@ -1,8 +1,62 @@
 # 生物信息学
+## 数据集格式
+- 表达矩阵（GCT，TXT）
+- 表型文件（CLS）
+- 功能数据集文件（GMT）
+
+## Bioconductor 下载
+```shell
+install.packages("BiocManager") 
+
+###设置好清华镜像
+rm(list = ls())   
+options()$repos 
+options()$BioC_mirror
+#options(BioC_mirror="https://mirrors.ustc.edu.cn/bioc/") 
+options(BioC_mirror="http://mirrors.tuna.tsinghua.edu.cn/bioconductor/")
+options("repos" = c(CRAN="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"))
+options()$repos 
+options()$BioC_mirror
+
+###安装需要的包
+BiocManager::install(c("GSEABase","GSVA","msigdbr","clusterProfiler" ),ask = F,update = F)
+BiocManager::install(c("GEOquery","limma","impute" ),ask = F,update = F)
+BiocManager::install(c("org.Hs.eg.db","org.Mm.eg.db"),ask = F,update = F)
+BiocManager::install(c("DESeq2","edgeR" ),ask = F,update = F)
+BiocManager::install("enrichplot",ask = F,update = F)
+BiocManager::install("devtools",ask = F,update = F)
+BiocManager::install("WGCNA",ask = F,update = F) 
+BiocManager::install("data.table",ask = F,update = F)
+BiocManager::install("tximport",ask = F,update = F)
+BiocManager::install("tidyverse",ask = F,update = F)
+BiocManager::install("DOSE",ask = F,update = F)
+BiocManager::install("patchwork",ask = F,update = F)
+BiocManager::install("RBGL",ask = F,update = F)  #Vennerable依赖包
+BiocManager::install("pathview",ask = F,update = F)
+BiocManager::install(c("STRINGdb","ggraph","igraph"),ask = F,update = F)
+install.packages("Vennerable", repos="http://R-Forge.R-project.org") #安装Vennerable包
+install.packages("statmod")
+
+#其他一些基础包安装
+options()$repos 
+install.packages(c("FactoMineR", "factoextra")) 
+install.packages(c("ggplot2", "pheatmap","ggpubr","ggthemes","ggstatsplot","ggsci","ggsignif")) 
+install.packages("rvcheck")
+(.packages())  #查看当前加载运行包
+
+#更新所有包
+rvcheck::update_all(check_R = F,
+                    which = c("CRAN", "BioC", "github"))
+```
+
+
+
+
+
 
 数据结构: Adata
 数据处理: scanpy, rapids-singlecell
-bulk RNA-seq:
+bulk RNA-seq: 
 
 ## Gene ID 转换
 
