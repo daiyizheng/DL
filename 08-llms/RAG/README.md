@@ -17,5 +17,5 @@ RAG如何通过外部知识增强来克服这些挑战：
 
 ## 相关向量数据库
 ### weaviate
-
+https://weaviate.io/developers/weaviate/manage-data/create
 - [01-intsall](08-llms/RAG/DB/weaviate_/01-intsall.ipynb)
