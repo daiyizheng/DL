@@ -4,22 +4,28 @@
 ## 02 数据分析
 
 
-## 03 深度学习框架 
-### Pytorch
-- BatchNorm 
+## 03 numpy 
+
 
 ## 04 基础算法
+### 欧几里德变换
+- []()
+
+### 统计推断
+#### 采样
+- [重要性采样](04-Base-Algorithm/Statistical-Inference/Samples/Importance-Sampling.ipynb)
+- [逆变换采样](04-Base-Algorithm/Statistical-Inference/Samples/Inverse-Transform-Sampling.ipynb)
+- [拒绝抽样](04-Base-Algorithm/Statistical-Inference/Samples/Rejection-Sampling.ipynb)
+- [吉布斯采样](04-Base-Algorithm/Statistical-Inference/Samples/Gibbs-Sampling.ipynb)
+- [蒙特卡洛](04-Base-Algorithm/Statistical-Inference/Samples/MCMC.ipynb)
+- [朗格万-蒙特卡洛](004-Base-Algorithm/Statistical-Inference/Samples/Langevin-Monte-Carlo.ipynb)
+- [Metropolis Hastings](04-Base-Algorithm/Statistical-Inference/Samples/Metropolis-Hastings.ipynb)
+
+## 05 Pytorch 学习
+- BatchNorm 
 
 
-## 05 Statistical Inference
-- 重要性采样
-- 逆变换采样
-- 拒绝抽样
-- 吉布斯采样
-- 朗格万-蒙特卡洛
-- Metropolis Hastings
-
-## 06 机器学习scikit-learn
+## 06 scikit-learn 机器学习
 - LinerRegression
 - Logistics Regression
 - Tree
@@ -27,8 +33,15 @@
 - GBDT
 - XGBoost
 
-## 深度学习模型
-## 注意力机制
+## 07 rdkit 分子表征
+- []()
+- []()
+
+## 08 LLM 大语言模型
+### 深度学习基础知识
+- [Postion编码]()
+
+### 注意力机制
 - 非参数注意力
 - 参数注意力
 - 内积注意力
@@ -36,11 +49,28 @@
 - 多头注意力机制
 - self-Attention
 
-## Postions位置编码
+
+### RAG
+#### 向量数据库
+##### weaviate 3.x版本
+- [01-intsall](08-llms/RAG/DB/weaviate_/01-intsall.ipynb)
+
+## 09 强化学习
 
 
-## AIGC
-- VAE
-- GAN
 
-## ChatGPT
+## 10 langchain
+
+
+
+## 11  slurm 集群
+
+
+## 97 生信分析
+
+
+## 98 开源框架学习
+
+
+
+
