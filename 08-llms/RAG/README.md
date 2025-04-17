@@ -19,3 +19,5 @@ RAG如何通过外部知识增强来克服这些挑战：
 ### weaviate
 https://weaviate.io/developers/weaviate/manage-data/create
 - [01-intsall](08-llms/RAG/DB/weaviate_/01-intsall.ipynb)
+- [02-concet](08-llms/RAG/DB/weaviate_/02-concet.ipynb)
+- [03-weaviate-operation-collection.ipynb](08-llms/RAG/DB/weaviate_/03-weaviate-operation-collection.ipynb)
