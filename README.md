@@ -1,4 +1,9 @@
 # 学习笔记
+
+> 注意环境准备
+> 1. 依赖 ： 
+> 配置项：cp example.env .env 
+
 ## 01 Python
 
 ## 02 数据分析
@@ -54,6 +59,16 @@
 #### 向量数据库
 ##### weaviate 3.x版本
 - [01-intsall](08-llms/RAG/DB/weaviate_/01-intsall.ipynb)
+
+### functioncalling 
+- [入门](08-llms/Functioncall/introduction.ipynb)
+- [工具规范](08-llms/Functioncall/工具规范.ipynb)
+- [实战](08-llms/Functioncall/functioncall实战.ipynb)
+
+### 模型上下文协议MCP
+#### MCP 基础
+
+#### fastmcp
 
 ## 09 强化学习
 
