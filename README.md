@@ -66,10 +66,11 @@
 - [实战](08-llms/Functioncall/functioncall实战.ipynb)
 
 ### 模型上下文协议MCP
-#### MCP 基础
-
-#### fastmcp
-
+- [MCP 基础](08-llms/MCP_/MCP基础.ipynb)
+- [MCP 在Cursor中配置](08-llms/MCP_/MCP 在Cursor中配置.ipynb)
+- [MCP server 开发](08-llms/MCP_/weather)
+- [MCP server 开发](08-llms/MCP_/mcp_server_notify)
+- [MCP client 开发]()
 ## 09 强化学习
 
 
