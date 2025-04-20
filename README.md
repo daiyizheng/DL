@@ -60,6 +60,9 @@
 ##### weaviate 3.x版本
 - [01-intsall](08-llms/RAG/DB/weaviate_/01-intsall.ipynb)
 
+### Agent 智能体
+
+
 ### functioncalling 
 - [入门](08-llms/Functioncall/introduction.ipynb)
 - [工具规范](08-llms/Functioncall/工具规范.ipynb)
@@ -70,7 +73,8 @@
 - [MCP 在Cursor中配置](08-llms/MCP_/MCP 在Cursor中配置.ipynb)
 - [MCP server 开发](08-llms/MCP_/weather)
 - [MCP server 开发](08-llms/MCP_/mcp_server_notify)
-- [MCP client 开发]()
+- [MCP client 开发](08-llms/MCP_/mcp-client)
+- [MCP 框架 fastmcp](08-llms/MCP_/fastmcp.ipynb)
 ## 09 强化学习
 
 

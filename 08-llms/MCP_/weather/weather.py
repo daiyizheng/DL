@@ -331,6 +331,16 @@ async def weather_report(city: str,
         }
     }
 
+@mcp.resource(
+    uri="greeting://{name}",
+    name='greeting',
+    description='用于演示的一个资源协议'
+)
+def get_greeting(name: str) -> str:
+    # 访问处理 greeting://{name} 资源访问协议，然后返回
+    # 此处方便起见，直接返回一个 Hello，balabala 了
+    return f"Hello, {name}!"
+
 
 # 程序入口点
 if __name__ == "__main__":
