@@ -22,8 +22,7 @@ load_dotenv()
 # 定义OpenWeatherMap API 的基础URL
 OPENWEATHER_API_BASE = "https://api.openweathermap.org/data/2.5"
 # API 密钥
-# OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
-OPENWEATHER_API_KEY = "1b77da22aee3f7eba6b8e70f888235f4"
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 # API 调用的身份识别
 USER_AGENT = "weather-app/1.0"
 
