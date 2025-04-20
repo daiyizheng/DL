@@ -55,7 +55,6 @@ async def make_weather_request(url: str) -> dict[str, Any] | None:
             # 检查HTTP状态，非2XX状态码会抛出异常
             response.raise_for_status()
             # 解析JSON响应数据并返回
-            logging.info(f"response: {response.json()}")
             return response.json()
         except Exception:
             return None
@@ -173,7 +172,6 @@ async def get_forecast(city: str,
     Returns:
         str: 格式化的5天天气预报信息文本
     """
-    logging.info(f"city: {city}")
     # 构建位置查询参数，支持城市名称、州代码和国家代码组合
     location_query = city
     if state_code and country_code:
@@ -188,7 +186,6 @@ async def get_forecast(city: str,
 
     # 发送请求并获取响应数据
     data = await make_weather_request(url)
-    logging.info(f"data: {data}")
     # 检查data是否为空
     if not data:
         return "无法获取天气数据"
