@@ -110,6 +110,40 @@
 
 
 ## 97 生信分析
+### R 基础
+
+### 生信相关包
+- [Omicverse](97-bioinformatics/bio_package/Omicverse)
+- [pydeseq2](97-bioinformatics/bio_package/pydeseq2)
+- [PyWGCNA](97-bioinformatics/bio_package/PyWGCNA)
+- [rnanorm](97-bioinformatics/bio_package/rnanorm)
+- [ScanPy](97-bioinformatics/bio_package/ScanPy)
+
+### 生信流程
+#### bulk 
+##### bulk上游分析
+- [Aspera——利用SRR号批量高效下载FASTQ或SRA数据](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/_00_Aspera——利用SRR号批量高效下载FASTQ或SRA数据.ipynb)
+- [Aspera——利用SRR号批量高效下载FASTQ或SRA数据](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/11_Aspera——利用SRR号批量高效下载FASTQ或SRA数据.ipynb)
+- [上游数据下载、格式转化和质控清洗](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/00_上游数据下载、格式转化和质控清洗.ipynb)
+- [上游数据的比对计数——Hisat2+ featureCounts 与 Salmon](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/01_上游数据的比对计数——Hisat2+ featureCounts 与 Salmon.ipynb)
+- [ensembl_id转换与gene symbol基因名去重复的两种方法](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/01-01_ensembl_id转换与gene symbol基因名去重复的两种方法.ipynb)
+- [从featureCounts与Salmon输出文件获取counts矩阵](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/02_从featureCounts与Salmon输出文件获取counts矩阵.ipynb)
+- [Counts FPKM RPKM TPM CPM 的转](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/02-02_Counts FPKM RPKM TPM CPM 的转化.ipynb)
+
+#### bulk下游分析
+- [差异分析前的准备——数据检查](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/03_差异分析前的准备——数据检查.ipynb)
+- [差异分析——DESeq2 edgeR limma的使用与比较](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/04_差异分析——DESeq2 edgeR limma的使用与比较.ipynb)
+- [GO、KEGG富集分析与enrichplot超全可视化](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/05_GO、KEGG富集分析与enrichplot超全可视化攻略.ipynb)
+- [GSEA——基因集富集分析](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/06_GSEA——基因集富集分析.ipynb)
+- [PPI蛋白互作网络构建（上）](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/08_PPI蛋白互作网络构建（上）——STRING数据库的使用.ipynb)
+- [PPI蛋白互作网络构建（下）——Cytoscape软件的使用](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/09_PPI蛋白互作网络构建（下）——Cytoscape软件的使用.ipynb)
+- [WGCNA加权基因共表达网络分析——关联基因模块与表型](97-bioinformatics/gene_process_for_python/bulk_RNA-seq_process/10_WGCNA加权基因共表达网络分析——关联基因模块与表型.ipynb)
+
+
+#### 单细胞组学
+
+
+#### 空间组学
 
 
 ## 98 开源框架学习
