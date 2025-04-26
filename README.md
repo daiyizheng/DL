@@ -110,7 +110,11 @@
 
 
 ## 97 生信分析
-### R 基础
+### R 语言
+- [R 语言基础](97-bioinformatics/R_project/R_base)
+- [R 语言统计推断](97-bioinformatics/R_project/R_statistical_inference)
+- [R 语言可视化](97-bioinformatics/R_project/R_plot)
+- [R语言机器学习](97-bioinformatics/R_project/R_ml)
 
 ### 生信相关包
 - [Omicverse](97-bioinformatics/bio_package/Omicverse)
