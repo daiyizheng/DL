@@ -150,6 +150,8 @@
 ##### 单细胞下游分析
 - [单细胞完整工作流说明](97-bioinformatics/gene_process_for_python/single-cell-rna/01-单细胞数据说明.ipynb)
 - [SCTransfom去批次效应](97-bioinformatics/gene_process_for_python/single-cell-rna/02-SCTransfom去批次效应.ipynb)
+- [数据整合锚定法](97-bioinformatics/gene_process_for_python/single-cell-rna/03-锚定法对项目数据整合.ipynb)
+- [数据整合harmony](97-bioinformatics/gene_process_for_python/single-cell-rna/04-harmony对项目数据着整合.ipynb)
 #### 空间组学
 
 
