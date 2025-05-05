@@ -152,6 +152,8 @@
 - [SCTransfom去批次效应](97-bioinformatics/gene_process_for_python/single-cell-rna/02-SCTransfom去批次效应.ipynb)
 - [数据整合锚定法](97-bioinformatics/gene_process_for_python/single-cell-rna/03-锚定法对项目数据整合.ipynb)
 - [数据整合harmony](97-bioinformatics/gene_process_for_python/single-cell-rna/04-harmony对项目数据着整合.ipynb)
+- [mark基因展示](97-bioinformatics/gene_process_for_python/single-cell-rna/05-mark基于展示.ipynb)
+
 #### 空间组学
 
 
