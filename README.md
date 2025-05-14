@@ -82,6 +82,12 @@
 - [22-weaviate-aggregate_data](08-llms/RAG/DB/weaviate_/22-weaviate-aggregate_data.ipynb)
 - [23-weaviate-filters](08-llms/RAG/DB/weaviate_/23-weaviate-filters.ipynb)
 
+#### 评测指标
+##### RAGAS
+- [01-入门](08-llms/RAG/metric/RAGAS/01-入门.ipynb)
+- [02-simple_rag](08-llms/RAG/metric/RAGAS/02-simple_rag.py)
+
+
 
 ### Agent 智能体
 
@@ -98,15 +104,26 @@
 - [MCP server 开发](08-llms/MCP_/mcp_server_notify)
 - [MCP client 开发](08-llms/MCP_/mcp-client)
 - [MCP 框架 fastmcp](08-llms/MCP_/fastmcp.ipynb)
+- [Fastapi-Mcp实例](08-llms/MCP_/mcp_server/fastapi-mcp-demo)
+- [MCP框架 python-sdk 入门](08-llms/MCP_/package_)
+
+
+##### MCP 框架源码分析
+
+
 ## 09 强化学习
 
 
 
-## 10 langchain
+## 10 web server
 
 
 
-## 11  slurm 集群
+## 11 langchain
+
+
+
+## 12  slurm 集群
 
 
 ## 97 生信分析
