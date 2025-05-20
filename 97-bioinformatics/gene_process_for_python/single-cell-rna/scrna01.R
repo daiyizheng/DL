@@ -13,7 +13,7 @@ remotes::install_version("Seurat", version = "3.2.0")
 install.packages('Seurat')
 getwd()
  
-setwd("97-bioinformatics/R_project/genomics_projects/02-single-cell-rna")
+setwd("/Users/a1-6/Documents/projects/DL/97-bioinformatics/R_project/genomics_projects/02-single-cell-rna/")
 ###加载所需要的包
 library(Seurat)
 library(tidyverse)

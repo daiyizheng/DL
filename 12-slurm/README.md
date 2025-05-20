@@ -7,7 +7,6 @@
 
 ```bash
 
-
 #SBATCH -n 1 # 指定核心数量
 #SBATCH -N 1 # 指定node的数量
 #SBATCH -t 0-5:00 # 运行总时间，天数-小时数-分钟， D-HH:MM
