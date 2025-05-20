@@ -15,3 +15,25 @@
 - [13_mcp_demo_example](08-llms/MCP_/package_/13_mcp_demo_example_.ipynb) 
 - [14_mcp_package_clients_with_stdio](08-llms/MCP_/package_/14_mcp_package_clients_with_stdio.py) 
 - [15_mcp_package_clients_with_streamablehttp](08-llms/MCP_/package_/15_mcp_package_clients_with_streamablehttp.py) 
+
+## MCP框架 Fastmcp 进阶
+- [01_fastmcp_base](08-llms/MCP_/package_/_01_fastmcp_base.py)
+- [02_fastmcp_server](08-llms/MCP_/package_/_02_fastmcp_server.ipynb)
+- [03_fstmcp_tool](08-llms/MCP_/package_/_03_fstmcp_tool.ipynb)
+- [4_fstmcp_resource](08-llms/MCP_/package_/_04_fstmcp_resource.ipynb)
+- [06_fstmcp_context](08-llms/MCP_/package_/_06_fstmcp_context.ipynb)
+- [06_fstmcp_context](08-llms/MCP_/package_/_06_fstmcp_context.ipynb)
+- [07_fastmcp_proxy_servers](08-llms/MCP_/package_/_07_fastmcp_proxy_servers.ipynb)
+- [08_fastmcp_server_composition](08-llms/MCP_/package_/_08_fastmcp_server_composition.ipynb)
+- [09_fastmcp_deployment_run_server](08-llms/MCP_/package_/_09_fastmcp_deployment_run_server.ipynb)
+- [10_fastmcp_deployment_ASGI](08-llms/MCP_/package_/_10_fastmcp_deployment_ASGI.ipynb)
+- [11_fastmcp_client](08-llms/MCP_/package_/_11_fastmcp_client.ipynb)
+- [12_fastmcp_client_transports](08-llms/MCP_/package_/_12_fastmcp_client_transports.ipynb)
+- [13_fastmcp_testing_mcp_servers](08-llms/MCP_/package_/_13_fastmcp_testing_mcp_servers.ipynb)
+
+
+
+
+
+## MCP框架 Fastapi-mcp 与web api 结合
+
