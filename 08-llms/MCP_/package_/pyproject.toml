@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-mcp-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi-mcp>=0.3.3",
+    "fastmcp>=2.2.6",
+    "mcp==1.7.0",
+    "pillow>=11.2.1",
+]
+
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
