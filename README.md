@@ -63,22 +63,9 @@
 
 
 ### Agent 智能体
-
-
-### functioncalling 
-- [入门](08-llms/Functioncall/introduction.ipynb)
-- [工具规范](08-llms/Functioncall/工具规范.ipynb)
-- [实战](08-llms/Functioncall/functioncall实战.ipynb)
-
-### 模型上下文协议MCP
-- [MCP 基础](08-llms/MCP_/MCP基础.ipynb) 
-- [MCP 在Cursor中配置](08-llms/MCP_/MCP在Cursor中配置.ipynb)
-- [MCP server 开发](08-llms/MCP_/weather)
-- [MCP server 开发](08-llms/MCP_/mcp_server_notify)
-- [MCP client 开发](08-llms/MCP_/mcp-client)
-- [MCP 框架 fastmcp](08-llms/MCP_/fastmcp.ipynb)
-- [Fastapi-Mcp实例](08-llms/MCP_/mcp_server/fastapi-mcp-demo)
-- [MCP框架 python-sdk 入门](08-llms/MCP_/package_)
+- [Agent系列教程](08-llms/Agent_)
+- [functioncall系列教程](08-llms/Functioncall)
+- [模型上下文协议MCP系列教程](08-llms/MCP_)
 
 
 ##### MCP 框架源码分析

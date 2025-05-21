@@ -15,6 +15,7 @@
 - [13_mcp_demo_example](08-llms/MCP_/package_/13_mcp_demo_example_.ipynb) 
 - [14_mcp_package_clients_with_stdio](08-llms/MCP_/package_/14_mcp_package_clients_with_stdio.py) 
 - [15_mcp_package_clients_with_streamablehttp](08-llms/MCP_/package_/15_mcp_package_clients_with_streamablehttp.py) 
+- [案例](08-llms/MCP_/package_/mcp_examples)
 
 ## MCP框架 Fastmcp 进阶
 - [01_fastmcp_base](08-llms/MCP_/package_/_01_fastmcp_base.py)
@@ -30,10 +31,12 @@
 - [11_fastmcp_client](08-llms/MCP_/package_/_11_fastmcp_client.ipynb)
 - [12_fastmcp_client_transports](08-llms/MCP_/package_/_12_fastmcp_client_transports.ipynb)
 - [13_fastmcp_testing_mcp_servers](08-llms/MCP_/package_/_13_fastmcp_testing_mcp_servers.ipynb)
-
-
-
-
+- [案例](08-llms/MCP_/package_/fastmcp_examples)
 
 ## MCP框架 Fastapi-mcp 与web api 结合
-
+- [01_fastapi_mcp_getting_started](08-llms/MCP_/package_/__01_fastapi_mcp_getting_started.ipynb)
+- [02_fastapi_mcp_base](08-llms/MCP_/package_/__02_fastapi_mcp_base.py)
+- [fastapi_mcp_configurations](08-llms/MCP_/package_/__03_fastapi_mcp_configurations.ipynb)
+- [04_fastapi_mcp_authentication](08-llms/MCP_/package_/__04_fastapi_mcp_authentication.ipynb)
+- [05_fastapi_mcp_deploment](08-llms/MCP_/package_/__05_fastapi_mcp_deploment.ipynb)
+- [案例](08-llms/MCP_/package_/fastapi_mcp_examples)
