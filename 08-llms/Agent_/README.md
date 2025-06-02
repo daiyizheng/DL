@@ -34,6 +34,13 @@
 - [04-evaluator-optimizer](08-llms/Agent_/02-agent-design-pattern/04-evaluator-optimizer.ipynb)
 - [05-orchestrator-workers](08-llms/Agent_/02-agent-design-pattern/05-orchestrator-workers.ipynb)
 - ReAct
-    - [paper]()
+    - [paper](https://arxiv.org/pdf/2210.03629.pdf)
+    - []()
     - [code](08-llms/Agent_/02-agent-design-pattern/06-ReAct.ipynb)
     - [code]()
+
+
+
+
+
+
