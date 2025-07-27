@@ -39,6 +39,9 @@
     - [code](08-llms/Agent_/02-agent-design-pattern/06-ReAct.ipynb)
     - [code]()
 
+## LangGraph 智能框架基础
+- [01-LangGraph 快速入门](08-llms/Agent_/03-langgraph/01-LangGraph快速入门.ipynb)
+- [02-LangGraph指南](08-llms/Agent_/03-langgraph/02-LangGraph指南.ipynb)
 
 
 
