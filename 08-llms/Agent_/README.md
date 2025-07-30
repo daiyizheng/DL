@@ -26,6 +26,32 @@
 - [22-Callbacks](08-llms/Agent_/01-langchain/22-Callbacks.ipynb)
 - [23-langchain_demo](08-llms/Agent_/01-langchain/23-langchain_demo.ipynb)
 
+
+## LangGraph 智能框架基础
+- [01-LangGraph 快速入门](08-llms/Agent_/03-langgraph/01-LangGraph快速入门.ipynb)
+- [02-LangGraph指南](08-llms/Agent_/03-langgraph/02-LangGraph指南.ipynb)
+- [03-LangGraph使用预构建组件进行代理开发](08-llms/Agent_/03-langgraph/03-LangGraph使用预构建组件进行代理开发.ipynb)
+- [04-LangGraph运行代理](08-llms/Agent_/03-langgraph/04-LangGraph运行代理.ipynb)
+- [05-LangGraph图形API概念](08-llms/Agent_/03-langgraph/05-LangGraph图形API概念.ipynb)
+- [06-langgrapg如何使用图形API](08-llms/Agent_/03-langgraph/06-langgrapg如何使用图形API.ipynb)
+- [07-LangGraph函数式API概念](08-llms/Agent_/03-langgraph/07-LangGraph函数式API概念.ipynb)
+- [08-LangGraph使用函数式API](08-llms/Agent_/03-langgraph/08-LangGraph使用函数式API.ipynb)
+- [09-LangGraph运行时](08-llms/Agent_/03-langgraph/09-LangGraph运行时.ipynb)
+- [10-LangGraph流媒体](08-llms/Agent_/03-langgraph/10-LangGraph流媒体.ipynb)
+- [11-LangGraph持久性](08-llms/Agent_/03-langgraph/11-LangGraph持久性.ipynb)
+- [12-LangGraph持久执行](08-llms/Agent_/03-langgraph/12-LangGraph持久执行.ipynb)
+- [13-LangGraph记忆](08-llms/Agent_/03-langgraph/13-LangGraph记忆.ipynb)
+- [14-LangGraph语境](08-llms/Agent_/03-langgraph/14-LangGraph语境.ipynb)
+- [15-LangGraph模型](08-llms/Agent_/03-langgraph/15-LangGraph模型.ipynb)
+- [16-LangGraph工具](08-llms/Agent_/03-langgraph/16-LangGraph工具.ipynb)
+- [17-LangGraph人机交互](08-llms/Agent_/03-langgraph/17-LangGraph人机交互.ipynb)
+- [18-LangGraph时间旅行](08-llms/Agent_/03-langgraph/18-LangGraph时间旅行.ipynb)
+- [19-LangGraph子图](08-llms/Agent_/03-langgraph/19-LangGraph子图.ipynb)
+- [20-LangGraph多智能体系统](08-llms/Agent_/03-langgraph/20-LangGraph多智能体系统.ipynb)
+- [21-LangGraph_MCP](08-llms/Agent_/03-langgraph/21-LangGraph_MCP.ipynb)
+- [22-LangGraph追踪](08-llms/Agent_/03-langgraph/22-LangGraph追踪.ipynb)
+
+
 ## 智能体的设计模式
 - [00-augmented](08-llms/Agent_/02-agent-design-pattern/00-augmented.ipynb)
 - [01-chain](08-llms/Agent_/02-agent-design-pattern/01-chain.ipynb)
@@ -38,27 +64,5 @@
     - []()
     - [code](08-llms/Agent_/02-agent-design-pattern/06-ReAct.ipynb)
     - [code]()
-
-## LangGraph 智能框架基础
-- [01-LangGraph 快速入门](08-llms/Agent_/03-langgraph/01-LangGraph快速入门.ipynb)
-- [02-LangGraph指南](08-llms/Agent_/03-langgraph/02-LangGraph指南.ipynb)
-- [03-LangGraph使用预构建组件进行代理开发.ipynb](08-llms/Agent_/03-langgraph/03-LangGraph使用预构建组件进行代理开发.ipynb)
-- [04-LangGraph运行代理.ipynb](08-llms/Agent_/03-langgraph/04-LangGraph运行代理.ipynb)
-- [05-LangGraph图形API概念.ipynb](08-llms/Agent_/03-langgraph/05-LangGraph图形API概念.ipynb)
-- [06-langgrapg如何使用图形API.ipynb](08-llms/Agent_/03-langgraph/06-langgrapg如何使用图形API.ipynb)
-- [07-LangGraph函数式API概念.ipynb](08-llms/Agent_/03-langgraph/07-LangGraph函数式API概念.ipynb)
-- [08-LangGraph使用函数式API.ipynb](08-llms/Agent_/03-langgraph/08-LangGraph使用函数式API.ipynb)
-- [09-LangGraph运行时.ipynb](08-llms/Agent_/03-langgraph/09-LangGraph运行时.ipynb)
-- [10-LangGraph流媒体.ipynb](08-llms/Agent_/03-langgraph/10-LangGraph流媒体.ipynb)
-- [11-LangGraph持久性.ipynb](08-llms/Agent_/03-langgraph/11-LangGraph持久性.ipynb)
-- [12-LangGraph持久执行.ipynb](08-llms/Agent_/03-langgraph/12-LangGraph持久执行.ipynb)
-- [13-LangGraph记忆.ipynb](08-llms/Agent_/03-langgraph/13-LangGraph记忆.ipynb)
-- []()
-- []()
-- []()
-- []()
-
-
-
 
 
