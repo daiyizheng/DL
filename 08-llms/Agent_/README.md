@@ -66,3 +66,27 @@
     - [code]()
 
 
+
+
+## DeepResearch项目
+
+
+### Dify
+
+### zilliz
+https://github.com/zilliztech/deep-searcher
+
+### langchain
+deepsearch:https://github.com/langchain-ai/open_deep_research
+
+
+### deepsearch-shandu
+https://github.com/astordu/shandu
+
+### node-deepsearch
+https://github.com/jina-ai/node-DeepResearch
+
+
+### huggingface
+https://huggingface.co/blog/open-deep-research
+
