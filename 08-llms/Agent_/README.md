@@ -50,6 +50,10 @@
 - [20-LangGraph多智能体系统](08-llms/Agent_/03-langgraph/20-LangGraph多智能体系统.ipynb)
 - [21-LangGraph_MCP](08-llms/Agent_/03-langgraph/21-LangGraph_MCP.ipynb)
 - [22-LangGraph追踪](08-llms/Agent_/03-langgraph/22-LangGraph追踪.ipynb)
+- [23-LangGraph命令行工具](08-llms/Agent_/03-langgraph/23-LangGraph命令行工具.ipynb)
+- [24-LangGraph-Authentication](08-llms/Agent_/03-langgraph/24-LangGraph-Authentication.ipynb)
+
+- [LangGraph 自定义权限](08-llms/Agent_/04-langgraph-example/custom-auth)
 
 
 ## 智能体的设计模式
