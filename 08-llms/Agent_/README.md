@@ -52,8 +52,12 @@
 - [22-LangGraph追踪](08-llms/Agent_/03-langgraph/22-LangGraph追踪.ipynb)
 - [23-LangGraph命令行工具](08-llms/Agent_/03-langgraph/23-LangGraph命令行工具.ipynb)
 - [24-LangGraph-Authentication](08-llms/Agent_/03-langgraph/24-LangGraph-Authentication.ipynb)
+- [25-LangChain MCP_AdaptersAnthropic](08-llms/Agent_/03-langgraph/25-LangChain_MCP_Adapters_Anthropic.ipynb)
 
+
+- [LangGraph MCP 智能体](08-llms/Agent_/04-langgraph-example/01-langgraph_mcp_agent_example)
 - [LangGraph 自定义权限](08-llms/Agent_/04-langgraph-example/custom-auth)
+
 
 
 ## 智能体的设计模式

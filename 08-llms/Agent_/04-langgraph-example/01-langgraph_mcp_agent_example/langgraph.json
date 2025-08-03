@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "clients_/06-langgraph-API-service.py:make_graph"
+  },
+  "env": "./.env"
+
+}
