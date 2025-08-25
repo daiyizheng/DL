@@ -54,9 +54,10 @@
 - [24-LangGraph-Authentication](08-llms/Agent_/03-langgraph/24-LangGraph-Authentication.ipynb)
 - [25-LangChain MCP_AdaptersAnthropic](08-llms/Agent_/03-langgraph/25-LangChain_MCP_Adapters_Anthropic.ipynb)
 
-
+## LangGraph 案例
 - [LangGraph MCP 智能体](08-llms/Agent_/04-langgraph-example/01-langgraph_mcp_agent_example)
 - [LangGraph 自定义权限](08-llms/Agent_/04-langgraph-example/custom-auth)
+- [LangGraph 航空酒店订阅工作流](08-llms/Agent_/04-langgraph-example/05_langgraph_build_a_customer_support_bot)
 
 
 
@@ -77,8 +78,6 @@
 
 
 ## DeepResearch项目
-
-
 ### Dify
 
 ### zilliz
@@ -91,6 +90,7 @@ deepsearch:https://github.com/langchain-ai/open_deep_research
 ### deepsearch-shandu
 https://github.com/astordu/shandu
 
+
 ### node-deepsearch
 https://github.com/jina-ai/node-DeepResearch
 
@@ -98,3 +98,11 @@ https://github.com/jina-ai/node-DeepResearch
 ### huggingface
 https://huggingface.co/blog/open-deep-research
 
+
+## AGENT-UI
+### agent-chat-ui
+https://github.com/langchain-ai/agent-chat-ui
+### AG-UI
+https://github.com/ag-ui-protocol/ag-ui
+### assistant-ui
+https://github.com/assistant-ui/assistant-ui
