@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { routes } from "@/route/index";
 console.log(routes);
 // 逻辑在这里
@@ -36,6 +36,10 @@ console.log(routes);
       color: white;
     }
   }
+}
+
+.app-main {
+  overflow-y: scroll;
 }
 /* 样式在这里 */
 </style>
