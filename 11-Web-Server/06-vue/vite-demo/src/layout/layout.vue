@@ -38,8 +38,15 @@ console.log(routes);
   }
 }
 
+.router-link-active {
+  background: firebrick !important;
+}
+
 .app-main {
   overflow-y: scroll;
+  .page-css {
+    color: salmon;
+  }
 }
 /* 样式在这里 */
 </style>
